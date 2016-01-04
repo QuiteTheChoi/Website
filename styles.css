@@ -1,0 +1,31 @@
+img {
+	max-width: 75%;
+	height: auto;
+	width: auto;
+	position: center;
+}
+
+header, footer, section, nav, article {
+
+display: block;
+
+}
+
+body, h1, h2, h3, p, ul, li, {
+
+border:0;
+margin:0;
+padding:0;
+
+}
+
+HEADER#Banner {
+
+width: 940px;
+height: 100px;
+margin: 5px auto;
+border: 1px solid #000000;
+text-align: center;
+background-color: blue;
+
+}
