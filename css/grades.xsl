@@ -9,15 +9,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <h2>My CD Collection</h2>
   <table border="1">
     <tr bgcolor="#9acd32">
-      <th>Title</th>
-      <th>Artist</th>
-      <th>Price</th>
+      <th>Course Name</th>
+      <th>Grade</th>
     </tr>
-    <xsl:for-each select="catalog/cd">
+    <xsl:for-each select="gradeList/class">
     <tr>
-      <td><xsl:value-of select="title"/></td>
-      <td><xsl:value-of select="artist"/></td>
-      <td><xsl:value-of select="price"/></td>
+      <td><xsl:value-of select="courseName"/></td>
+      <td><xsl:value-of select="grade"/></td>
     </tr>
     </xsl:for-each>
   </table>
